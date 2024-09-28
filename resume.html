@@ -1,0 +1,198 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Sankaranarayanan B} \\ \vspace{1pt}
+    \small 8072161458 $|$ \href{mailto:bsankar1510@gmail.com}{bsankar1510@gmail.com} $|$ 
+    \href{https://www.linkedin.com/in/sankaranarayanan05/}{LinkedIn Profile} $|$ 
+    \href{https://github.com/Sankar1510}{GitHub Profile}
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Anna University }{ Kancheepuram, Tamil Nadu}
+      {Bachelor of Engineering (B.E.) in Electronics and Communication Engineering (ECE)}{2019}
+      \resumeItemListStart
+        \resumeItem{Cumulative GPA : \textbf{6.25/10.0}}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Panimalar Polytechnic College}{Chennai, Tamil Nadu}
+      {Diploma in Electronics and Communication Engineering}{2016}
+       \resumeItemListStart
+        \resumeItem{Percentage : \textbf{85/100}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\resumeItemListStart
+    \resumeItem{\textbf{Programming Languages}: PHP, JavaScript}
+    \resumeItem{\textbf{Frameworks}: Laravel, ReactJS, Redux}
+    \resumeItem{\textbf{Front-end}: HTML, CSS, Bootstrap}
+    \resumeItem{\textbf{Databases}: MySQL}
+    \resumeItem{\textbf{Version Control}: Git}
+    \resumeItem{\textbf{Tools}: VS Code, XAMPP, Composer}
+\resumeItemListEnd
+
+
+\section*{Certifications}
+\resumeItemListStart
+\resumeItem{\textbf{Programming Language}}
+\textbf{Full Stack Development Certification in APJ Dream Tech} \\
+\resumeItemListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Admin Template (CRUD Application using PHP)}}
+          {{{}}}
+          \resumeItemListStart
+            \resumeItem{Built a dynamic admin template with functionalities for Create, Read, Update, and Delete (CRUD) operations.}
+             \resumeItem{ Implemented user management features, allowing admins to control data entries effectively.}
+              \resumeItem{Used MySQL for database management, and the application was structured following the MVC pattern.}
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\textbf{Software Developers Registration Template (Laravel Framework \& AJAX)}}
+          {{{}}}
+          \resumeItemListStart
+            \resumeItem{Developed a registration platform using Laravel and AJAX for real-time form submissions and CRUD operations.}
+             \resumeItem{ Integrated user authentication and database connectivity for managing developer registrations.}
+              \resumeItem{Enhanced the performance and user experience by implementing asynchronous requests with AJAX.}
+          \resumeItemListEnd
+     \resumeProjectHeading
+    {\textbf{E-commerce Website - Built using HTML, CSS, Bootstrap, JavaScript}}{}{}
+    \resumeItemListStart
+        \resumeItem{Developed an online food ordering system where users can browse through various dishes, add them to their cart, and proceed to payment.}
+        \resumeItem{Built using HTML, CSS, Bootstrap, and JavaScript to create a user-friendly and responsive web application.}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+%%
+
+\section{Profile Summary}
+ \resumeItemListStart
+ \resumeItem{A passionate and dedicated fresher web developer with hands-on experience in front-end technologies like HTML,CSS, Bootstrap, JavaScript, ReactJS, and Redux. Skilled in back-end development using PHP and the Laravel framework. Proficient in building dynamic, responsive web applications and eager to apply full-stack development skills to real-world projects. Enthusiastic about learning and growing in a collaborative development environment}
+  \resumeItemListEnd
+
+
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: "Gill Sans", sans-serif; */
+}
+.navbar-brand {
+    font-size: 34px;
+    font-weight: bold;
+    color: whitesmoke !important;
+    margin-left: 50px;
+}
+header .navbar{
+    background:  #2e054e !important;
+    height: 101px;
+ }
+ .s_symbol{
+    width: 48px;
+    position: relative;
+    left: 30px;
+
+ }
+ .s-city{
+    border-radius: 20px;
+    height: 50px !important;
+    padding: 11px !important;
+    border: 2px solid #482464 !important;
+    background: #2e054e !important;
+    margin-left: 10px;
+    font-weight: bold;
+ }
+ .form-control{
+    margin-left: 43px;
+    width: 266px !important;
+    border-radius: 20px;
+    height: 50px !important;
+    background: #2e054e !important;
+    border: 2px solid #482464 !important;
+    font-weight: bold;
+ }
+ .fa-magnifying-glass{
+    position: relative;
+    left: -46px;
+    color: white;
+ }
+ .nav-link{
+    font-weight: bold;
+    color: white;
+ }
+ .fa-heart{
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    position: relative;
+    top: -10px;
+   
+ }
+ .styles__navLine{
+    font-size: 13px;
+    position: relative;
+    top: 13px;
+    left: -45px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+ }
+
+ .account{
+    position: relative;
+    left: -24px;
+    top: -7px;
+    font-size: 13px;
+    font-weight: bold;
+ }
+ .fa-fire{
+    position: relative;
+    left: -18px;
+    top: 16px;
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+ }
+ .styles__callHeading{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -32px;
+    margin-left: -13px;
+ }
+ .styles__careNumber{
+    color: white;
+    position: relative;
+    top: 9px;
+    left: -55px;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background: #2e054e !important;
+}
+.dropdown-item{
+   font-weight: bold !important;
+}
+.dropdown-menu-bg{
+   background: #561381 !important;
+}
+.dropdown-item{
+    color: white;
+}
+.second_header{
+    height: 48px;
+}
+.navbar-expand-lg{
+   background: #561381 !important;
+}
+.seven-dropdown{
+ margin-left: 30px;
+}
+.nav-link{
+   color: white !important;
+}
+.change_color_explore{
+   color: #986fb2 !important;
+}
+.w-100{
+   height: 450px;
+}
+.banner-text{
+    position: relative;
+    top: -351px;
+    left: 140px;
+    color: white;
+}
+.go_place{
+   font-size: 60px;
+}
+.upgrade-car{
+   font-size: 20px;
+}
+.button_color{
+   position: relative;
+   top: -317px;
+   left: 139px; 
+}
+.bg-clor-pink{
+   background: red;
+   width: 203px;
+   display: inline-block;
+   height: 50px;
+   border-radius: 20px;
+   text-align: center;
+   padding-top: 13px;
+   color: white;
+   font-weight: bold;
+   text-decoration: none !important;
+} 
+.decoration{
+   text-decoration: none;
+}
+.profile_login{
+   margin-left: 5px;
+}
+.login{
+   margin-left: 8px;
+}
+.car-details{
+   margin-left: 10px;
+}
+.four-tab{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    position: relative;
+    left: 58px;
+    top: -110px;
+    width: 1240px;
+    height: 600px;
+}
+.double-button{
+   width: 277px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 493px;
+    top: -25px;
+    border-radius: 19px;  
+}
+.buy-car{
+   background: #561381;
+    width: 120px;
+    height: 40px;
+    margin-left: 28px;
+    position: relative;
+    top: 5px;
+    border-radius: 7px;
+}
+.car-colr{
+   font-weight: bold;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    position: relative;
+    top: 6px;
+}
+.sell-car{
+   position: relative;
+    left: 169px;
+    top: -28px;
+    color: #561381;
+}
+.header-box{
+   margin-left: 516px;
+   color: #561381;
+   font-weight: bold;
+
+}
+.img-thumbnail{
+   height: 280px;
+   padding: -0.75rem;
+   border-radius: 2.25rem;
+   margin-top: 48px; 
+}
+.developer-sankar{
+   width: 246px;
+}
+.Profession{
+   text-align: center;
+   color: #561381;
+   font-weight: bold;
+}
